@@ -108,3 +108,76 @@ input:focus {
   color: #fff;
   cursor: pointer;
 }
+
+@media (max-width: 1024px) {
+  img {
+    max-width: 1024px;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  img {
+    max-width: 768px;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 480px) {
+  img {
+    max-width: 480px;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu nav a {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .form input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .form button {
+    width: 100%;
+    margin-left: 0;
+  }
+}
