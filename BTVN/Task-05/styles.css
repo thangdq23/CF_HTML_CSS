@@ -30,9 +30,10 @@ body {
   margin: 32px 0 32px 0;
 }
 
-.menu nav a {
+.menu ul li {
+  display: inline-block;
   margin: 0 10px;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   cursor: pointer;
 }
@@ -44,22 +45,22 @@ body {
   margin-bottom: 65px;
 }
 
-.card {
+.hero {
   background: #0d3b4c;
 }
 
-.card img {
+.hero img {
   width: 100%;
   height: 370px;
   object-fit: cover;
-  cursor: pointer;
 }
 
 .name {
+  display: block;
   text-align: center;
   padding: 20px;
   color: white;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   cursor: pointer;
 }
@@ -134,7 +135,7 @@ input:focus {
 }
 
 @media (max-width: 768px) {
-  .menu nav a {
+  .menu ul li {
     display: block;
     margin: 10px 0;
     font-size: 16px;
